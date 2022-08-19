@@ -1,4 +1,4 @@
-package com.demo.microstream.config;
+package com.demo.microstream.exception;
 
 import com.demo.microstream.exception.CarException;
 import lombok.AllArgsConstructor;
