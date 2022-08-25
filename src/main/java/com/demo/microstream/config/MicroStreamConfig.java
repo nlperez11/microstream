@@ -10,9 +10,8 @@ import java.nio.file.Paths;
 @Configuration
 public class MicroStreamConfig {
 
-
     @Bean
-    public EmbeddedStorageManager initDataBase(DataRoot root) {
+    public EmbeddedStorageManager init(DataRoot root) {
         return EmbeddedStorage.start(root, Paths.get("data"));
     }
 
